@@ -23,7 +23,7 @@ const Navbar = () => {
             style={{ objectFit: 'cover' }}
           />
         </div>
-        <span className="ml-3 text-designColor font-titleFont text-xl">DEVELOPER</span>
+        <span className="ml-3 text-designColor font-titleFont text-xl">FULL STACK DEVELOPER</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
