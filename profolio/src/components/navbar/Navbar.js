@@ -19,13 +19,13 @@ const Navbar = () => {
             alt="logo"
           />
         </div>
-        <span className="ml-3 text-red-600 font-titleFont text-xl font-semibold">FULL STACK DEVELOPER</span>
+        <span className="ml-3 text-designColor font-titleFont text-xl font-semibold">FULL STACK DEVELOPER</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer transition duration-300 hover:text-red-600 hover:underline"
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer transition duration-300 hover:text-designColor hover:underline"
               key={_id}
             >
               <Link
@@ -43,7 +43,7 @@ const Navbar = () => {
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-red-600 cursor-pointer transition duration-300 hover:bg-gray-800"
+          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer transition duration-300 hover:bg-gray-800"
         >
           <FiMenu />
         </span>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer transition duration-300 hover:text-red-600 hover:underline"
+                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer transition duration-300 hover:text-designColor hover:underline"
                   >
                     <Link
                       onClick={() => setShowMenu(false)}
@@ -100,7 +100,7 @@ const Navbar = () => {
               </div>
               <span
                 onClick={() => setShowMenu(false)}
-                className="absolute top-4 right-4 text-gray-400 hover:text-red-600 duration-300 text-2xl cursor-pointer"
+                className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
               >
                 <MdClose />
               </span>

@@ -161,7 +161,7 @@ const Testimonial = () => {
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-red-600 tracking-wide mb-2">
+                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                   Moringa School Alumnus
                   </p>
                   <h3 className="text-2xl font-bold">Abdi Mohammaud</h3>
@@ -212,7 +212,7 @@ const Testimonial = () => {
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-red-600 tracking-wide mb-2">
+                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                   Moringa School Alumnus
                            </p>
                   <h3 className="text-2xl font-bold">Steve Warui</h3>
