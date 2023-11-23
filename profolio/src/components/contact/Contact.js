@@ -62,59 +62,59 @@ const Contact = () => {
               )}
               <div className="w-full flex flex-col lgl:flex-row gap-10">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">Your name</p>
+                  <p className="text-sm text-gray-100 uppercase tracking-wide">Your name</p>
                   <input
                     id="username"
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
                     className={`${
-                      errMsg === 'Username is required!' && 'outline-designColor'
-                    } contactInput bg-gray-800 text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
+                      errMsg === 'Username is required!' && 'outline-designColor focus:ring focus:border-designColor transition duration-300'
+                    } contactInput bg-[#141518] text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
                     type="text"
                   />
                 </div>
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">Phone Number</p>
+                  <p className="text-sm text-gray-100 uppercase tracking-wide">Phone Number</p>
                   <input
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
                     className={`${
-                      errMsg === 'Phone number is required!' && 'outline-designColor'
-                    } contactInput bg-gray-800 text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
+                      errMsg === 'Phone number is required!' && 'outline-designColor focus:ring focus:border-designColor transition duration-300'
+                    } contactInput bg-[#141518] text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
                     type="text"
                   />
                 </div>
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">Email</p>
+                <p className="text-sm text-gray-100 uppercase tracking-wide">Email</p>
                 <input
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                   className={`${
-                    errMsg === 'Please give your Email!' && 'outline-designColor'
-                  } contactInput bg-gray-800 text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
+                    errMsg === 'Please give your Email!' && 'outline-designColor focus:ring focus:border-designColor transition duration-300'
+                  } contactInput bg-[#141518] text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
                   type="email"
                 />
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">Subject</p>
+                <p className="text-sm text-gray-100 uppercase tracking-wide">Subject</p>
                 <input
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
                   className={`${
-                    errMsg === 'Please give your Subject!' && 'outline-designColor'
-                  } contactInput bg-gray-800 text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
+                    errMsg === 'Please give your Subject!' && 'outline-designColor focus:ring focus:border-designColor transition duration-300'
+                  } contactInput bg-[#141518] text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
                   type="text"
                 />
               </div>
               <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">Message</p>
+                <p className="text-sm text-gray-100 uppercase tracking-wide">Message</p>
                 <textarea
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
                   className={`${
-                    errMsg === 'Message is required!' && 'outline-designColor'
-                  } contactTextArea bg-gray-800 text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
+                    errMsg === 'Message is required!' && 'outline-designColor focus:ring focus:border-designColor transition duration-300'
+                  } contactTextArea bg-[#141518] text-white px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-designColor`}
                   cols="30"
                   rows="8"
                 ></textarea>
@@ -122,7 +122,7 @@ const Contact = () => {
               <div className="w-full">
                 <button
                   onClick={handleSend}
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-100 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent transition duration-300"
                 >
                   Send Message
                 </button>
