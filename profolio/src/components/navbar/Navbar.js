@@ -12,24 +12,20 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="flex items-center">
-        <div
-          className="w-16 h-16 overflow-hidden rounded-full border-black border-2"
-          style={{ aspectRatio: '1/1' }}
-        >
+        <div className="w-16 h-16 overflow-hidden rounded-full border-black border-2 aspect-w-1 aspect-h-1">
           <img
             className="w-full h-full object-cover"
             src={logo}
             alt="logo"
-            style={{ objectFit: 'cover' }}
           />
         </div>
-        <span className="ml-3 text-designColor font-titleFont text-xl">FULL STACK DEVELOPER</span>
+        <span className="ml-3 text-red-600 font-titleFont text-xl font-semibold">FULL STACK DEVELOPER</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer transition duration-300 hover:text-red-600 hover:underline"
               key={_id}
             >
               <Link
@@ -47,7 +43,7 @@ const Navbar = () => {
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-red-600 cursor-pointer transition duration-300 hover:bg-gray-800"
         >
           <FiMenu />
         </span>
@@ -55,15 +51,11 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div className="flex items-center">
-                <div
-                  className="w-12 h-12 overflow-hidden rounded-full border-black border-2"
-                  style={{ aspectRatio: '1/1' }}
-                >
+                <div className="w-12 h-12 overflow-hidden rounded-full border-black border-2 aspect-w-1 aspect-h-1">
                   <img
                     className="w-full h-full object-cover"
                     src={logo}
                     alt="logo"
-                    style={{ objectFit: 'cover' }}
                   />
                 </div>
                 <span className="ml-2 text-gray-400 font-titleFont">
@@ -74,7 +66,7 @@ const Navbar = () => {
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer transition duration-300 hover:text-red-600 hover:underline"
                   >
                     <Link
                       onClick={() => setShowMenu(false)}
@@ -108,7 +100,7 @@ const Navbar = () => {
               </div>
               <span
                 onClick={() => setShowMenu(false)}
-                className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+                className="absolute top-4 right-4 text-gray-400 hover:text-red-600 duration-300 text-2xl cursor-pointer"
               >
                 <MdClose />
               </span>

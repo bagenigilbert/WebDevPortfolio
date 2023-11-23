@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
-import { testimonialOne,testimonialTwo, quote } from "../../assets";
+import { testimonialOne, testimonialTwo, quote,  } from "../../assets";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -106,15 +107,15 @@ const Testimonial = () => {
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialOne}
-                  alt="testimonialOne"
+                  alt="testimonialThree"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                  Moringa School Alumnus
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Brian kibet</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  Software Engineer
                   </p>
                 </div>
               </div>
@@ -124,10 +125,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                      Building Scalable Applications.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                      Testimonial via Moringa School - nov 12, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -139,11 +140,11 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Bageni Gilbert is an exceptional software engineer. His ability to build scalable
+                  and efficient applications is truly commendable. Gilbert's dedication to mastering
+                  new technologies and solving complex problems makes him an asset to any
+                  development team. It was a pleasure working alongside him during our time at
+                  Moringa School.
                   </p>
                 </div>
               </div>
@@ -160,12 +161,12 @@ const Testimonial = () => {
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                  <p className="text-xs uppercase text-red-600 tracking-wide mb-2">
+                  Moringa School Alumnus
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Abdi Mohammaud</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Moringa school
                   </p>
                 </div>
               </div>
@@ -175,10 +176,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                       Software Engineer
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                      Testimonial via Moringa School - oct 20, 2023                      
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -190,11 +191,11 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    Bageni Gilbert is an outstanding full-stack developer. His expertise in both frontend
+                    and backend technologies is truly remarkable. He has a keen eye for detail and
+                    consistently delivers robust and efficient solutions. Gilbert's collaborative
+                    approach and problem-solving skills make him a valuable asset to any software
+                    development team.
                   </p>
                 </div>
               </div>
@@ -211,12 +212,12 @@ const Testimonial = () => {
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
-                  </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <p className="text-xs uppercase text-red-600 tracking-wide mb-2">
+                  Moringa School Alumnus
+                           </p>
+                  <h3 className="text-2xl font-bold">Steve Warui</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                   Student Moringa
                   </p>
                 </div>
               </div>
@@ -226,10 +227,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Software  Developer.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2023 - Aug 30, 2023 
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -241,11 +242,11 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    Bageni Gilbert is an exceptional software developer. His skills and dedication
+                    during our time at Moringa School were truly commendable. He consistently
+                    delivered high-quality solutions and showcased an eagerness to learn and
+                    grow. It was a pleasure having him as part of our software development
+                    community.
                   </p>
                 </div>
               </div>

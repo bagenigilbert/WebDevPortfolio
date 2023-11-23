@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "./components/banner/Banner";
+import Hero from "./components/banner/Hero";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
 import Footer from "./components/footer/Footer";
@@ -14,7 +14,7 @@ function App() {
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
-        <Banner />
+        <Hero />
         <Features />
         <Projects />
         <Resume />
