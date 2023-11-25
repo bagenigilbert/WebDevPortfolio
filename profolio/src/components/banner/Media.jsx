@@ -4,7 +4,7 @@ import { SiTailwindcss, SiFigma } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di';
 
 const Media = () => {
-  const iconStyle = 'text-2xl designColor transition duration-300 transform hover:text-designColor hover:scale-110';
+  const iconStyle = 'text-3xl designColor transition duration-300 transform hover:text-designColor hover:scale-110';
   const containerStyle = 'text-center';
 
   return (
